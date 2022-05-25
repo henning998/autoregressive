@@ -152,7 +152,11 @@ def spherical_data_fun():
 
     return img
 
+<<<<<<< HEAD
 for i in tqdm(range(34000,50000)):
+=======
+for i in tqdm(range(17000,34000)):
+>>>>>>> 9e7148fac0ad9629ebfc68d192d532dc3ef757ca
     testimg = spherical_data_fun()
     #cv2.imshow("test",testimg[0])
     #cv2.waitKey(0)
